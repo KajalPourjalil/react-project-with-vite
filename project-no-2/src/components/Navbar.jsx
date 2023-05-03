@@ -1,5 +1,10 @@
+// import 
 function Navbar() {
-    return <h1>Navbar goes here</h1>
+  return (
+    <div className="navbar">
+      <h1>Navbar goes here</h1>
+    </div>
+  );
 }
 
 export default Navbar;
