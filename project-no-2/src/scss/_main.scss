@@ -1,0 +1,19 @@
+$backgound-color: #33373E;
+$body-text-color: #FFFFFF;
+
+.main {
+    background-color: $backgound-color;
+    color: $body-text-color;
+    height: 550px;
+    width: 550px;
+    margin: 57px;
+}
+
+.elements {
+    margin: 20px;
+
+}
+
+.list {
+    font-size: 13px;
+}

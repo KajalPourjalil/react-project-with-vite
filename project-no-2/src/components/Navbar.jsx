@@ -3,8 +3,8 @@ function Navbar() {
   return (
     <div className="navbar">
       {/* <Pic/> */}
-      <h1>ReactFacts</h1>
-      <h1>React Course - Project 1</h1>
+      <h1 className="logo-text">ReactFacts</h1>
+      <h3 className="title">React Course - Project 1</h3>
     </div>
   );
 }

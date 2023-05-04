@@ -1,11 +1,37 @@
 .navbar {
-  background-color: #21222A;
-  font-size: 10px;
   color: #61DAFB;
   display: flex;
   justify-content: space-between;
+  background-color: #21222A;
+}
+
+.logo-text {
+  font-size: 20px;
+}
+
+.title {
+  color: #DEEBF8;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.main {
+  background-color: #33373E;
+  color: #FFFFFF;
+  height: 550px;
+  width: 550px;
+  margin: 57px;
+}
+
+.elements {
+  margin: 20px;
+}
+
+.list {
+  font-size: 13px;
 }
 
 * {
   margin: 0;
+  font-family: "Inter", sans-serif;
 }/*# sourceMappingURL=style.css.map */

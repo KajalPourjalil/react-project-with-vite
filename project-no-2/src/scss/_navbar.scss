@@ -1,11 +1,23 @@
 // @import url("../assets/pngwing.com.png");
 $logo-text: #61DAFB;
 
+@mixin course-title() {
+    color: #DEEBF8;
+    font-weight: 400;
+    font-size: 13px;
+}
 
 .navbar {
-    background-color: #21222A;
-    font-size: 10px;
     color: $logo-text;
     display: flex;
     justify-content: space-between;
+    background-color: #21222A;
+}
+
+.logo-text {
+    font-size: 20px;
+}
+
+.title {
+    @include course-title
 }

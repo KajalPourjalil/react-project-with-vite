@@ -1,9 +1,12 @@
 @import 'navbar';
+@import 'main';
+
 $navbar-color: #21222A;
-$backgound-color: #33373E;
+
 $navbar-text-color: #DEEBF8;
-$body-text-color: #FFFFFF;
+
 
 * {
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
