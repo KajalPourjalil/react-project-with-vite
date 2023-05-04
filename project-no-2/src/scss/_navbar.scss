@@ -1,0 +1,11 @@
+// @import url("../assets/pngwing.com.png");
+$logo-text: #61DAFB;
+
+
+.navbar {
+    background-color: #21222A;
+    font-size: 10px;
+    color: $logo-text;
+    display: flex;
+    justify-content: space-between;
+}

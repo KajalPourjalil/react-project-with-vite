@@ -1,8 +1,10 @@
-// import 
+// import Pic from "../assets/pngwing.com.png";
 function Navbar() {
   return (
     <div className="navbar">
-      <h1>Navbar goes here</h1>
+      {/* <Pic/> */}
+      <h1>ReactFacts</h1>
+      <h1>React Course - Project 1</h1>
     </div>
   );
 }

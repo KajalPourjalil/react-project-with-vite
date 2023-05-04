@@ -1,8 +1,11 @@
-/*# sourceMappingURL=style.css.map */
-* {
-    /* box-sizing: ; */
+.navbar {
+  background-color: #21222A;
+  font-size: 10px;
+  color: #61DAFB;
+  display: flex;
+  justify-content: space-between;
 }
 
-.navbar {
-    /* background-color: $navbar-color; */
-}
+* {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
