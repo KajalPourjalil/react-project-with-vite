@@ -1,18 +1,25 @@
+@charset "UTF-8";
 .navbar {
   color: #61DAFB;
   display: flex;
   justify-content: space-between;
   background-color: #21222A;
+  width: 550px;
+  height: 91px;
+  margin: 57px;
+  margin-bottom: 0;
 }
 
 .logo-text {
   font-size: 20px;
+  margin: 30px;
 }
 
 .title {
   color: #DEEBF8;
   font-weight: 400;
   font-size: 13px;
+  margin: 35px;
 }
 
 .main {
@@ -21,17 +28,41 @@
   height: 550px;
   width: 550px;
   margin: 57px;
+  margin-top: 0;
 }
 
 .elements {
   margin: 20px;
+  margin-top: 0;
+}
+
+.main-title {
+  margin-top: 0;
+  padding-top: 50px;
 }
 
 .list {
-  font-size: 13px;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+li::before {
+  content: "•";
+  color: #61DAFB;
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -1em;
 }
 
 * {
-  margin: 0;
   font-family: "Inter", sans-serif;
+}
+
+.App {
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

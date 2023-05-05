@@ -7,6 +7,11 @@ $navbar-text-color: #DEEBF8;
 
 
 * {
-    margin: 0;
     font-family: 'Inter', sans-serif;
+}
+
+.App {
+    // display: flex;
+    justify-content: center;
+    align-items: center;
 }

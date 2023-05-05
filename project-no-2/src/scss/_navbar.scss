@@ -12,12 +12,18 @@ $logo-text: #61DAFB;
     display: flex;
     justify-content: space-between;
     background-color: #21222A;
+    width: 550px;
+    height: 91px;
+    margin: 57px;
+    margin-bottom: 0;
 }
 
 .logo-text {
     font-size: 20px;
+    margin: 30px;
 }
 
 .title {
-    @include course-title
+    @include course-title;
+    margin: 35px;
 }
