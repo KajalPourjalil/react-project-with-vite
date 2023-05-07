@@ -10,7 +10,7 @@ $logo-text: #61DAFB;
 .navbar {
     color: $logo-text;
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     background-color: #21222A;
     width: 550px;
     height: 91px;
@@ -21,9 +21,38 @@ $logo-text: #61DAFB;
 .logo-text {
     font-size: 20px;
     margin: 30px;
+    margin-left: 0px;
 }
 
 .title {
     @include course-title;
-    margin: 35px;
+    margin: 35px 35px 35px 150px;
 }
+
+img{
+    width: 30px;
+    height: 30px;
+    margin: 25px 0px 30px 30px;
+}
+
+// alternative way
+// nav {
+//     display: flex;
+//     align-items: center;
+//     background-color: #21222A;
+//     height: 90px;
+//     padding: 30px 25px;
+// }
+
+// nav > h3, nav > h4 {
+//     margin: 0;
+// }
+
+// nav > h3 {
+//     margin-right: auto;
+// }
+
+// nav > img {
+//     height: 30px;
+//     margin-right: 7px;
+// }

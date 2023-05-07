@@ -1,3 +1,4 @@
+
 $backgound-color: #33373E;
 $body-text-color: #FFFFFF;
 $bullet-color: #61DAFB;
@@ -9,7 +10,17 @@ $bullet-color: #61DAFB;
     width: 550px;
     margin: 57px;
     margin-top: 0;
+    // background: url("../assets/pngwing.com.png") repeat;
+    // background-position: right 75%;
+    // background-position-y: 75%;
+    
 }
+
+// .sth {
+//     height: 300px;
+//     width: 300px;
+//     po
+// }
 
 .elements {
     margin: 20px;
@@ -26,16 +37,9 @@ $bullet-color: #61DAFB;
     line-height: 30px;
 }
 
-li{
-    list-style: none;
-}
 
-
-li::before {
-    content: "•"; 
+li::marker {
+    font-size: 1.4rem;
     color: $bullet-color;
-    display: inline-block; 
-    width: 1.5em;
-    
-    margin-left: -1em
 }
+

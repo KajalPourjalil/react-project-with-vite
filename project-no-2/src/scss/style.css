@@ -1,8 +1,6 @@
-@charset "UTF-8";
 .navbar {
   color: #61DAFB;
   display: flex;
-  justify-content: space-between;
   background-color: #21222A;
   width: 550px;
   height: 91px;
@@ -13,13 +11,20 @@
 .logo-text {
   font-size: 20px;
   margin: 30px;
+  margin-left: 0px;
 }
 
 .title {
   color: #DEEBF8;
   font-weight: 400;
   font-size: 13px;
-  margin: 35px;
+  margin: 35px 35px 35px 150px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  margin: 25px 0px 30px 30px;
 }
 
 .main {
@@ -46,16 +51,9 @@
   line-height: 30px;
 }
 
-li {
-  list-style: none;
-}
-
-li::before {
-  content: "•";
+li::marker {
+  font-size: 1.4rem;
   color: #61DAFB;
-  display: inline-block;
-  width: 1.5em;
-  margin-left: -1em;
 }
 
 * {
@@ -63,6 +61,7 @@ li::before {
 }
 
 .App {
-  position: absolute;
-  left: 28%;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
 }/*# sourceMappingURL=style.css.map */
